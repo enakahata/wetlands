@@ -24,6 +24,7 @@ n <- 1 #compensatory wetland mitigation ratio (choice variable)
 c_permitting <-30000 #approximate cost of hiring a consultant to handle permitting of up to 1 acre of wetland in central Virginia (DeBerry pers. comm.)
 #c_construction <- #need to find an estimate for this
 #c_mitigation <- 50000*A_conv #approximate cost of 1 acre of wetland mitigation credits in the Richmond area
+#^this was my first instinct but I realized that it should change with demand
 
 ## Constraints
 
