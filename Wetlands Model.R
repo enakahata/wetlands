@@ -8,7 +8,7 @@ library(readr)
 
 ## Variables
 ### initial stocks
-A_huc_j # area of Mid-James Willis river sub-basin (HUC code: 02080205); source:USFWS National Wetlands Inventory mapper (see wetland_area_calculation.R for data cleaning)
+A_huc_j # area of Middle James-Willis river sub-basin (HUC code: 02080205); source:USFWS National Wetlands Inventory mapper (see wetland_area_calculation.R for data cleaning)
 A_wotus_j #area of wetlands in Mid-James Willis river sub-basin; source:USFWS National Wetlands Inventory mapper (see wetland_area_calculation.R for data cleaning)
 A_upl_j <- A_huc_j - A_wotus_j
   
